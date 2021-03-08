@@ -7,7 +7,7 @@ import threading
 
 # Values
 
-SetPoint = 2  # Flow rate set point (L/min)
+SetPoint = 0  # Flow rate set point (L/min)
 PGain = 1  # Proportional Gain
 IGain = 1  # Integral Gain
 DGain = 1  # Derivative Gain
