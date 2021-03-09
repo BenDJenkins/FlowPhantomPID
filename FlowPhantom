@@ -75,6 +75,8 @@ def runpumpspeed1_val():
         Pumpspeed1_val = Label(window, text=str(200))
         Pumpspeed1_val.grid(column=1, row=3)
         time.sleep(0.5)  # Updates every 0.5 seconds.
+        if not runpumpspeed1_val:
+            break
 
 
 Pumpspeed1_val = Label(window, text='0')  # Setting initial label
@@ -131,6 +133,8 @@ def btn2clicked():
     pump1statuslbl.configure(text="Stopped",
                              bg="red"
                              )
+    Flowrate1_val = Label(window, text='0')
+    Flowrate1_val.grid(column=1, row=2)
     return
 
 
@@ -232,6 +236,8 @@ def btn4clicked():
     pump2statuslbl.configure(text="Stopped",
                              bg="red"
                              )
+    Flowrate2_val = Label(window, text='0')  # Temporary until can get flowrate from flowmeter.
+    Flowrate2_val.grid(column=3, row=2)
     return
 
 
