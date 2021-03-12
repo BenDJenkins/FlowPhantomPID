@@ -60,7 +60,7 @@ def runflowrate1_val():
     while True:
         Flowrate1_val = Label(window, text=flowrate_input_filtered)  # Updating value
         Flowrate1_val.grid(column=1, row=2)
-        time.sleep(0.5)  # Updates every 0.5 seconds so that the program doesn't take up too much.
+        time.sleep(0.5)  # Updates every 0.5 seconds so that the program doesn't take up too many resources.
 
 
 Flowrate1_val = Label(window, text='0')
@@ -168,7 +168,7 @@ def runflowrate2_val():
     while True:
         Flowrate2_val = Label(window, text=flowrate_input_filtered)  # Updating value
         Flowrate2_val.grid(column=3, row=2)
-        time.sleep(0.5)  # Updates every 0.5 seconds so that the program doesn't take up too much.
+        time.sleep(0.5)  # Updates every 0.5 seconds so that the program doesn't take up too many resources.
 
 
 Flowrate2_val = Label(window, text='0')
