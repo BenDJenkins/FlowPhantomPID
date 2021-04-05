@@ -37,7 +37,7 @@ flowrate_input_filtered = flowrate_input
 
 window = Tk()
 window.title("Flow Phantom PID")
-window.geometry('500x150')
+window.geometry('420x120')
 
 # PUMP 1
 
